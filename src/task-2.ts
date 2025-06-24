@@ -1,9 +1,8 @@
 interface Product {
-    id: number;
-    title: string;
-    description: string;
-};
-
+  readonly id: number;
+  title: string;
+  description?: string;
+}
 
 const product: Product = {
   id: 1,
